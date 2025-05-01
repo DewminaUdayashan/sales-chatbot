@@ -1,0 +1,87 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up?", "Hey there"],
+      "responses": ["Hi, how can I assist you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Thank you", "See you later", "Goodbye", "Thanks", "Catch you later"],
+      "responses": ["Have a nice day!"]
+    },
+    {
+      "tag": "ask_brand_model",
+      "patterns": [
+        "I’m looking for a BMW",
+        "Do you have Toyota cars?",
+        "Any Nissan Leaf?",
+        "Show me a Honda Fit",
+        "Tell me about Suzuki Wagon R",
+        "Looking for a Toyota Prius",
+        "Is BMW X5 available?",
+        "Have any Mitsubishi Montero?"
+      ],
+      "responses": ["We have several {brand} {model} listings. Here's what I found:"]
+    },
+    {
+      "tag": "ask_price_range",
+      "patterns": [
+        "Show me cars under 5 million",
+        "Any vehicle under five million?",
+        "What do you have for 3M to 5M?",
+        "Vehicles between three million and five million",
+        "Cars under fifty lakhs",
+        "Show cars under 5000000",
+        "Show vehicles below 45 lakhs",
+        "What cars are in 2 million range?",
+        "Show me cars between 2.5 and 4.5 million"
+      ],
+      "responses": ["Here are some vehicles within your budget:"]
+    },
+    {
+      "tag": "ask_by_fuel",
+      "patterns": [
+        "Do you have diesel cars?",
+        "Any petrol vehicles?",
+        "Show electric cars",
+        "What diesel variants are available?",
+        "Is there any hybrid model?",
+        "Can I see diesel engine cars?",
+        "I want a petrol car"
+      ],
+      "responses": ["These are the vehicles with {fuel_type} engines:"]
+    },
+    {
+      "tag": "ask_by_vehicle_type",
+      "patterns": [
+        "Show me SUVs",
+        "I want a van",
+        "Do you have any hatchbacks?",
+        "Looking for a sedan",
+        "Any 4x4s available?",
+        "Do you have trucks?",
+        "Can I see crossover vehicles?"
+      ],
+      "responses": ["Here are some {vehicle_type}s available:"]
+    },
+    {
+      "tag": "ask_leasing",
+      "patterns": [
+        "Can I lease a car?",
+        "Is leasing available?",
+        "What about financing options?",
+        "Can I buy this on loan?",
+        "Any installment plans?",
+        "Is a lease possible?",
+        "Can I get vehicle leasing?"
+      ],
+      "responses": ["Please contact the vehicle owner directly for leasing details."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm not sure I understood that. Could you please rephrase?"]
+    }
+  ]
+}

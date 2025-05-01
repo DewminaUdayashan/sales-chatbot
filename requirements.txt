@@ -1,0 +1,5 @@
+nltk
+scikit-learn
+joblib
+pymongo
+word2number
