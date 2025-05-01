@@ -7,8 +7,8 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "Thank you", "See you later", "Goodbye", "Thanks", "Catch you later"],
-      "responses": ["Have a nice day!"]
+      "patterns": ["Bye", "Thank you", "See you later", "Goodbye", "Thanks", "Catch you later", "have a nice day", "All good"],
+      "responses": ["Have a nice day!","Goodbye"]
     },
     {
       "tag": "ask_brand_model",
