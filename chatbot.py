@@ -139,13 +139,14 @@ def get_response(user_input, chat_history=[]):
     return filled_template
 
 # ---------- MAIN LOOP ----------
-chat = []
-print("Chatbot ready! Type 'exit' to quit.\n")
-while True:
-    msg = input("You: ")
-    if msg.lower() in ["exit", "quit"]:
-        print("Bot: Goodbye!")
-        break
-    reply = get_response(msg, chat)
-    chat.append(msg)
-    print("Bot:", reply)
+if __name__ == "__main__":
+    chat = []
+    print("Chatbot ready! Type 'exit' to quit.\n")
+    while True:
+        msg = input("You: ")
+        if msg.lower() in ["exit", "quit"]:
+            print("Bot: Goodbye!")
+            break
+        reply = get_response(msg, chat)
+        chat.append(msg)
+        print("Bot:", reply)
